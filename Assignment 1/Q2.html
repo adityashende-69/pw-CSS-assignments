@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6, Q2 </title>
+    <style>
+     .sahil {
+        margin: 5px;   /* this style is  used for paragraph 1st this normal text style  */
+        padding: 5px;
+        
+     }
+
+     .sahil--heading {         /* this style is for 5th paragraph it has font-size amd magin    */
+        font-size: 1.2em;
+        margin-bottom: 5px;
+     }
+
+     .sahil--special{
+        background-color: aqua;    /* this style is for 2nd paragraph it contain just background colour */
+
+     }
+    .sahil--important{
+        font-weight: bold;           /* this style is for 4th paragraph it contain bold font to text */
+    }
+    .sahil--small {
+        font-size: 0.8em;            /*  this style is for 3rd paragraph it contain very less font-size */
+    }
+     
+    </style>
+</head>
+<body>
+    <p class="sahil">
+     this is regular sentance. 
+    </p>
+    <p class="sahil--special">
+      this sentance having a aqua colour in background.
+    </p>
+    <p class="sahil--small">
+     this sentance have very small font-size.
+    </p>
+    <p class="sahil--important">
+      this sentance is in bold style.
+    </p>
+    <p class="sahil--heading">
+        this sentance contain margin-bottom.    </p>
+
+        <!---  in this example, I've used the BEM naming convention as follows:   BEM is stands for Block , Element and modifier
+
+        Block: .sahil Represents the overall block or container for each paragraph.
+
+        Element: .sahil--heading - Represents the heading within each paragraph block.
+
+        Modifier: .sahil--highlighted and .sahil--special - These modifiers are used to apply specific styles to individual paragraphs,
+        such as highlighting and special styling.    -->
+</body>
+</html>
