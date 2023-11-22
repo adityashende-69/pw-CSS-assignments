@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 </title>
+    <style>
+        body
+        {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .container
+        {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: white;
+        }
+        .header
+        .footer
+        { background-color: yellow;
+            color: violet;
+            padding: 20px;
+            text-align: center;
+        }
+        .main
+        {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+        }
+        .sidebar
+        .container
+        {
+            background-color: pink;
+            padding: 20px;
+            text-align: center;    
+        }
+        .sidebar2
+        {
+            background-color: aqua;
+            color: azure;
+        }
+        .content
+        {
+            background-color: bisque;
+            columns: white;
+        }
+        @media screen and (min-width: 786px) {
+            .container
+            {
+                flex-direction: row;
+            }
+            .sidebar
+            .container
+            {
+                flex:1;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="header">header</div>
+<div class="main">
+    <div class="sidebar">sidebar</div>
+    <div class = "content">main content</div>
+</div>
+<div class="footer">Footer</div>
+</div>
+</body>
+</html>
